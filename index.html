@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page moderna para nutricionista e personal trainer com foco em conversão para WhatsApp e organizador de links." />
+  <title>Nutri & Personal | Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="brand">
+        <span class="brand-badge">N</span>
+        <div>
+          <strong id="brandName">Profissional</strong>
+          <small id="brandRole">Nutri & Personal</small>
+        </div>
+      </a>
+
+      <nav class="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#links">Links</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a id="headerWhatsappButton" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badges">
+            <span class="badge">Atendimento online</span>
+            <span class="badge badge-soft">Suporte no WhatsApp</span>
+          </div>
+
+          <p class="eyebrow">Treino, rotina e acompanhamento com leveza</p>
+          <h1 id="heroName">Emily</h1>
+          <p class="hero-role" id="heroRole">Nutricionista e Personal Trainer</p>
+          <p class="hero-text" id="heroDescription">
+            Ajudo você a criar constância com treino, organização da rotina e acompanhamento de treino + dieta de forma prática e acessível.
+          </p>
+
+          <div class="hero-actions">
+            <a id="heroWhatsappButton" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+            <a href="#links" class="btn btn-secondary btn-large">Ver meus links</a>
+          </div>
+
+          <div class="hero-numbers">
+            <div class="stat-card">
+              <strong>100%</strong>
+              <span>Foco em rotina saudável</span>
+            </div>
+            <div class="stat-card">
+              <strong>2 áreas</strong>
+              <span>Treino e treino + dieta</span>
+            </div>
+            <div class="stat-card">
+              <strong>Online</strong>
+              <span>Atendimento prático e direto</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-1">
+          <div class="photo-card">
+            <div class="photo-glow"></div>
+            <div class="photo-frame">
+              <img id="profileImage" src="assets/profile-placeholder.svg" alt="Foto da profissional" />
+            </div>
+            <div class="floating-card floating-card-top">
+              <span class="floating-title">Treinos personalizados</span>
+              <small>Organização com estratégia</small>
+            </div>
+            <div class="floating-card floating-card-bottom">
+              <span class="floating-title">Acompanhamento</span>
+              <small>Mais constância e resultado</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="section-tag">Sobre</p>
+          <h2>Uma proposta mais humana para cuidar do corpo e da rotina</h2>
+        </div>
+
+        <div class="about-card reveal reveal-delay-1">
+          <p id="aboutText1">
+            Minha proposta é te ajudar a sair da desorganização e construir uma rotina mais consistente, com treino, alimentação e acompanhamento adaptados à sua realidade.
+          </p>
+          <p id="aboutText2">
+            Aqui, o foco não é perfeição. É constância, leveza, clareza e evolução. Com um plano simples e acompanhamento próximo, você consegue manter o processo de forma sustentável.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-tag">Serviços</p>
+          <h2>Como posso te acompanhar</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">🏋️</div>
+            <h3>Treinos personalizados</h3>
+            <p>Estrutura pensada para o seu objetivo, nível e rotina.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-icon">🥗</div>
+            <h3>Treino + dieta</h3>
+            <p>Organização de treino e alimentação de forma mais prática.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-icon">📅</div>
+            <h3>Acompanhamento de rotina</h3>
+            <p>Mais clareza para manter constância no seu processo.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-3">
+            <div class="service-icon">💬</div>
+            <h3>Suporte via WhatsApp</h3>
+            <p>Contato fácil para dúvidas, orientação e acompanhamento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-links" id="links">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-tag">Organizador de links</p>
+          <h2>Acesse seus materiais com facilidade</h2>
+          <p class="section-subtitle">Escolha uma aba para visualizar os links disponíveis.</p>
+        </div>
+
+        <div class="tabs reveal reveal-delay-1" role="tablist" aria-label="Organizador de materiais">
+          <button class="tab-button active" data-tab="treino" role="tab" aria-selected="true">Treino</button>
+          <button class="tab-button" data-tab="treinoDieta" role="tab" aria-selected="false">Treino e dieta</button>
+        </div>
+
+        <div id="linksGrid" class="links-grid reveal reveal-delay-2"></div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-tag">Depoimentos</p>
+          <h2>Resultados que começam com constância</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal">
+            <p>“Consegui voltar a treinar com organização e sem me sentir perdida. Ficou tudo muito mais leve.”</p>
+            <strong>Mariana, 27 anos</strong>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-1">
+            <p>“A divisão entre treino e rotina ficou clara. O suporte no WhatsApp fez muita diferença.”</p>
+            <strong>Camila, 31 anos</strong>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-2">
+            <p>“Gostei porque não foi algo impossível de seguir. Foi um plano realista para o meu dia a dia.”</p>
+            <strong>Rafaela, 24 anos</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-grid">
+        <div class="section-heading reveal">
+          <p class="section-tag">FAQ</p>
+          <h2>Dúvidas comuns</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>Como funciona o acompanhamento?</summary>
+            <p>Você recebe a organização do material conforme o plano escolhido e pode tirar dúvidas pelo WhatsApp.</p>
+          </details>
+
+          <details class="faq-item reveal reveal-delay-1">
+            <summary>Posso contratar só treino?</summary>
+            <p>Sim. Há uma aba exclusiva de treino e outra com treino + dieta, para atender diferentes necessidades.</p>
+          </details>
+
+          <details class="faq-item reveal reveal-delay-2">
+            <summary>O atendimento é online?</summary>
+            <p>Sim. A proposta da página foi pensada para atendimento online, acesso fácil aos materiais e suporte rápido.</p>
+          </details>
+
+          <details class="faq-item reveal reveal-delay-3">
+            <summary>Como entro em contato?</summary>
+            <p>Basta clicar nos botões de WhatsApp da página para iniciar a conversa com mensagem automática.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong id="footerName">Profissional</strong>
+        <p>Treino, dieta, rotina e acompanhamento com mais leveza.</p>
+      </div>
+
+      <div class="footer-links">
+        <a id="footerWhatsappButton" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a id="footerInstagramLink" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <a id="floatingWhatsappButton" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    <span>💬</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
