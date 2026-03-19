@@ -3,12 +3,12 @@ const professionalRole = 'Nutricionista e Personal Trainer';
 const professionalDescription = 'Ajudo mulheres e homens a criarem constância com treino, alimentação e rotina organizada, com acompanhamento mais próximo e uma estratégia simples de seguir.';
 const aboutText1 = 'Minha proposta é te ajudar a sair da desorganização e construir uma rotina mais consistente, com treino, alimentação e acompanhamento adaptados à sua realidade.';
 const aboutText2 = 'Aqui, o foco não é perfeição. É constância, leveza, clareza e evolução. Com um plano simples e acompanhamento próximo, você consegue manter o processo de forma sustentável.';
-const whatsappNumber = '5563999999999';
+const whatsappNumber = '5563992783671';
 const whatsappMessage = 'Olá! Vim pela sua landing page e quero saber mais sobre acompanhamento de treino e dieta.';
-const instagramUrl = 'https://instagram.com/';
+const instagramUrl = 'https://www.instagram.com/e_millyalvina/';
 
 // Troque este caminho pela foto real da profissional quando tiver um arquivo JPG/PNG.
-const profileImage = 'assets/profile-placeholder.svg';
+const profileImage = 'assets/emily_champs.png';
 
 const linksTreino = [
   {
